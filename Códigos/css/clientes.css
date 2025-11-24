@@ -1,0 +1,237 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.menuLateral {
+    width: 22%;
+    height: 100vh;
+    background-color: #5e2c2f;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logoMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.logoMenu img {
+    width: 70px;
+    filter: drop-shadow(0px 0px 12px #000000);
+}
+
+.linksMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.on {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: rgba(55, 25, 27, 0.6);
+    padding: 10px 0px 10px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.on:hover {
+    background-color: #37191b;
+    transform: translateY(-3px);
+}
+
+
+.off {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.off:hover {
+    transform: translateY(-3px);
+}
+
+.btsMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 22%;
+}
+
+.btCentral {
+    width: 240px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #5e2c2f;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btCentral:hover {
+    transform: scale(1.02);
+}
+
+.btSair {
+    width: 240px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #5e2c2f;
+    background-color: #d8bfa5;
+    border: none;
+    border-radius: 50px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btSair:hover {
+    transform: scale(1.02);
+}
+
+
+
+
+
+.conteudoClientes {
+    margin-left: 22%;
+    margin-top: 20px;
+}
+
+.topoClientes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.topoClientes h1 {
+    color: #5e2c2f;
+    font-size: 40px;
+}
+
+.topoClientes input {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.topoClientes button {
+    background-color: #5e2c2f;
+    color: #d8bfa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.topoClientes button:hover{
+    transform: scale(1.02);
+}
+
+.cardClientes {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+
+.topoCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.topoCard span {
+    color: #a6a6a6;
+    font-size: 17px;
+}
+
+.total {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+thead tr {
+    background-color: #e9e9e9;
+    font-weight: 700;
+}
+
+th {
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+    color: #5e2c2f;
+}
+
+td {
+    padding: 20px 0px 20px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.btEditar {
+    padding: 5px 12px 5px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #bfbfbf;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+.btEditar:hover {
+    transform: scale(1.03);
+}
+
+.btExcluir {
+    padding: 5px 12px 5px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #f4b3b8;
+    color: black;
+    margin-left: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+.btExcluir:hover {
+    transform: scale(1.03);
+}

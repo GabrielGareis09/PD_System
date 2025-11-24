@@ -1,0 +1,238 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.menuLateral {
+    width: 22%;
+    height: 100vh;
+    background-color: #5e2c2f;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logoMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.logoMenu img {
+    width: 70px;
+    filter: drop-shadow(0px 0px 12px #000000);
+}
+
+.linksMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.on {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: rgba(55, 25, 27, 0.6);
+    padding: 10px 0px 10px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.on:hover {
+    background-color: #37191b;
+    transform: translateY(-3px);
+}
+
+
+.off {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.off:hover {
+    transform: translateY(-3px);
+}
+
+.btsMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 22%;
+}
+
+.btCentral {
+    width: 240px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #5e2c2f;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btCentral:hover {
+    transform: scale(1.02);
+}
+
+.btSair {
+    width: 240px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #5e2c2f;
+    background-color: #d8bfa5;
+    border: none;
+    border-radius: 50px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btSair:hover {
+    transform: scale(1.02);
+}
+
+
+
+.conteudoFuncionarios {
+    margin-left: 22%;
+    margin-top: 20px;
+}
+
+.topoFuncionarios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.topoFuncionarios h1 {
+    color: #5e2c2f;
+    font-size: 40px;
+}
+
+.topoFuncionarios input {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.topoFuncionarios button {
+    background-color: #5e2c2f;
+    color: #d8bfa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.topoFuncionarios button:hover{
+    transform: scale(1.02);
+}
+
+.cardFuncionarios {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+
+.topoCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.topoCard span {
+    color: #a6a6a6;
+    font-size: 17px;
+}
+
+.total {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.areaMiniCards{
+    margin: 5px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.miniCard{
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.colunaEsquerda{
+    display: flex;
+}
+
+.imgFuncionarios{
+    display: flex;
+    align-items: center;
+}
+
+.imgFuncionarios img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.infoFuncionarios{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 50px;
+}
+
+.infoFuncionarios h1{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.infoFuncionarios h2{
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.btsFuncionarios button{
+    font-size: 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    margin: 0%;
+}
