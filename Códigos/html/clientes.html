@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="/imagens/guia.png">
+    <link rel="stylesheet" href="/css/clientes.css">
+    <title>Clientes - PDSystem</title>
+</head>
+<body>
+    <section>
+        <div class="menuLateral">
+            <div class="logoMenu">
+                <img src="/imagens/logoMenu.png" alt="">
+            </div>
+
+            <div class="linksMenu">
+                <a class="on" href="/html/clientes.html">Clientes</a>
+                <a class="off" href="/html/funcionarios.html">Funcionários</a>
+                <a class="off" href="/html/produtos.html">Produtos</a>
+                <a class="off" href="/html/fornecedores.html">Fornecedores</a>
+                <a class="off" href="/html/compras.html">Compras</a>
+                <a class="off" href="/html/vendas.html">Vendas</a>
+                <a class="off" href="/html/producao.html">Produção</a>
+                <a class="off" href="/html/despesas.html">Despesas</a>
+            </div>
+
+            <div class="btsMenu">
+                <a><button class="btCentral">Central</button></a>
+                <a href="entrada.html"><button class="btSair">Sair</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="conteudoClientes">
+        <div class="topoClientes">
+            <h1>Clientes</h1>
+            <div>
+                <input type="text" placeholder="Buscar...">
+                <button>+ Novo</button>
+            </div>
+        </div>
+
+        <div class="cardClientes">
+            <div class="topoCard">
+                <span>Lista de clientes cadastrados</span>
+                <div class="total">Total: 5</div>
+            </div>
+
+            <div>
+                <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Email</th>
+                        <th>Endereço</th>
+                        <th>Data cadastro</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lucas Prado</td>
+                        <td>(11) 98452-1020</td>
+                        <td>lucas.p@ex.com</td>
+                        <td>Rua Solar, 12</td>
+                        <td>14/11/2025</td>
+                        <td>
+                            <button class="btEditar">Editar</button>
+                            <button class="btExcluir">Excluir</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Ana Souza</td>
+                        <td>(21) 99711-4432</td>
+                        <td>ana.s@ex.com</td>
+                        <td>Av. Lima, 88</td>
+                        <td>10/11/2025</td>
+                        <td>
+                            <button class="btEditar">Editar</button>
+                            <button class="btExcluir">Excluir</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Marcos Dias</td>
+                        <td>(31) 98820-7741</td>
+                        <td>m.dias@ex.com</td>
+                        <td>Rua Bela, 40</td>
+                        <td>08/11/2025</td>
+                        <td>
+                            <button class="btEditar">Editar</button>
+                            <button class="btExcluir">Excluir</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Carla Nunes</td>
+                        <td>(41) 99530-2209</td>
+                        <td>c.nunes@ex.com</td>
+                        <td>Trav. Rio, 15</td>
+                        <td>12/11/2025</td>
+                        <td>
+                            <button class="btEditar">Editar</button>
+                            <button class="btExcluir">Excluir</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Pedro Lima</td>
+                        <td>(51) 98199-6322</td>
+                        <td>p.lima@ex.com</td>
+                        <td>Rua Sol, 09</td>
+                        <td>06/11/2025</td>
+                        <td>
+                            <button class="btEditar">Editar</button>
+                            <button class="btExcluir">Excluir</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
