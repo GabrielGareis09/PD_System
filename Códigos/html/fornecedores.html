@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" type="imagex/png" href="/imagens/guia.png">
     <link rel="stylesheet" href="/css/fornecedores.css">
     <title>Funcionários - PDSystem</title>
 </head>
+
 <body>
     <section>
         <div class="menuLateral">
@@ -34,5 +37,101 @@
             </div>
         </div>
     </section>
+
+    <section class="conteudoClientes">
+        <div class="topoClientes">
+            <h1>Fornecedores</h1>
+            <div>
+                <input type="text" placeholder="Buscar...">
+                <button>+ Novo</button>
+            </div>
+        </div>
+
+        <div class="cardClientes">
+            <div class="topoCard">
+                <span>Fornecedores cadastrados</span>
+                <div class="total">Total: 5</div>
+            </div>
+
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>CNPJ</th>
+                            <th>Telefone</th>
+                            <th>Email</th>
+                            <th>Endereço</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Grupo Nova Massa</td>
+                            <td>12.345.678/0001-55</td>
+                            <td>(11) 3234-8899</td>
+                            <td>ctt@novamassa.com</td>
+                            <td>Rua Sol, 210</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Doce & Cia</td>
+                            <td>28.901.445/0001-02</td>
+                            <td>(21) 3877-4421</td>
+                            <td>suporte@docecia.com</td>
+                            <td>Av. Rio, 99</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Paniflora</td>
+                            <td>45.667.330/0001-77</td>
+                            <td>(31) 2558-9022</td>
+                            <td>contato@paniflora.com</td>
+                            <td>Rua Flor, 45</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Trigo Master</td>
+                            <td>09.556.889/0001-18</td>
+                            <td>(41) 3349-7710</td>
+                            <td>vds@trigomaster.com</td>
+                            <td>Rua Sul, 180</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Sabor Real</td>
+                            <td>31.220.900/0001-40</td>
+                            <td>(51) 3022-6612</td>
+                            <td>ctt@saborreal.com</td>
+                            <td>Rua Luz, 312</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
