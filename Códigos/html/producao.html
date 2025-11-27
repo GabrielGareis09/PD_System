@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" type="imagex/png" href="/imagens/guia.png">
     <link rel="stylesheet" href="/css/producao.css">
     <title>Funcionários - PDSystem</title>
 </head>
+
 <body>
     <section>
         <div class="menuLateral">
@@ -34,5 +37,70 @@
             </div>
         </div>
     </section>
+
+    <section class="conteudoProducao">
+        <div class="topoProducao">
+            <h1>Produção</h1>
+            <div>
+                <input type="text" placeholder="Buscar...">
+                <button>+ Novo</button>
+            </div>
+        </div>
+
+        <div class="cardProducao">
+            <div class="topoCard">
+                <span>Produção da Panificadora</span>
+            </div>
+
+            <div class="inputsProducao">
+                <div>
+                    <h1>Produção</h1>
+                    <select id="opcoes" name="opcoes">
+                        <option value="op1">Opção 1</option>
+                        <option value="op2">Opção 2</option>
+                        <option value="op3">Opção 3</option>
+                        <option value="op4">Opção 4</option>
+                        <option value="op5">Opção 5</option>
+                    </select>
+                </div>
+
+                <div>
+                    <h1>Quantidade produzida</h1>
+                    <input type="number" placeholder="0">
+                </div>
+
+                <div>
+                    <h1>Data</h1>
+                    <input type="date">
+                </div>
+
+                <div>
+                    <button>+ Adicionar a fila</button>
+                    <button>Limpar</button>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h1>Fila de produção</h1>
+                </div>
+                
+                <div>
+                    <div>
+                        <div>450</div>
+                    </div>
+                    <div>
+                        <h1>Pão Francês</h1>
+                        <h2>450 unidades — 14/11/2025</h2>
+                    </div>
+                    <div>
+                        <button>Remover</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

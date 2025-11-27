@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" type="imagex/png" href="/imagens/guia.png">
     <link rel="stylesheet" href="/css/vendas.css">
     <title>Funcionários - PDSystem</title>
 </head>
+
 <body>
     <section>
         <div class="menuLateral">
@@ -34,5 +37,94 @@
             </div>
         </div>
     </section>
+
+    <section class="conteudoVendas">
+        <div class="topoVendas">
+            <h1>Vendas</h1>
+            <div>
+                <input type="text" placeholder="Buscar...">
+                <button>+ Novo</button>
+            </div>
+        </div>
+
+        <div class="cardVendas">
+            <div class="topoCard">
+                <span>Vendas realizadas</span>
+                <div class="total">Total: 5</div>
+            </div>
+
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cliente</th>
+                            <th>Funcionário</th>
+                            <th>Data</th>
+                            <th>Forma de pagamento</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Paulo Mendes</td>
+                            <td>Carla Souza</td>
+                            <td>05/11/2025</td>
+                            <td>Cartão de Crédito</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Ana Duarte</td>
+                            <td>Lucas Prado</td>
+                            <td>12/11/2025</td>
+                            <td>Dinheiro</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Bruno Nunes</td>
+                            <td>Maria Lopes</td>
+                            <td>02/11/2025</td>
+                            <td>Pix</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Larissa Gomes</td>
+                            <td>João Tavares</td>
+                            <td>09/11/2025</td>
+                            <td>Cartão de Débito</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Pedro Silva</td>
+                            <td>Camila Rocha</td>
+                            <td>14/11/2025</td>
+                            <td>Pix</td>
+                            <td>
+                                <button class="btEditar">Editar</button>
+                                <button class="btExcluir">Excluir</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
