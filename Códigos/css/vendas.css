@@ -110,3 +110,125 @@ body {
 .btSair:hover {
     transform: scale(1.02);
 }
+
+
+.conteudoVendas {
+    margin-left: 22%;
+    margin-top: 20px;
+}
+
+.topoVendas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.topoVendas h1 {
+    color: #5e2c2f;
+    font-size: 40px;
+}
+
+.topoVendas input {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.topoVendas button {
+    background-color: #5e2c2f;
+    color: #d8bfa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.topoVendas button:hover{
+    transform: scale(1.02);
+}
+
+.cardVendas {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+
+.topoCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.topoCard span {
+    color: #a6a6a6;
+    font-size: 17px;
+}
+
+.total {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+thead tr {
+    background-color: #e9e9e9;
+    font-weight: 700;
+}
+
+th {
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+    color: #5e2c2f;
+}
+
+td {
+    padding: 20px 0px 20px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.btEditar {
+    padding: 5px 12px 5px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #bfbfbf;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+.btEditar:hover {
+    transform: scale(1.03);
+}
+
+.btExcluir {
+    padding: 5px 12px 5px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #f4b3b8;
+    color: black;
+    margin-left: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+.btExcluir:hover {
+    transform: scale(1.03);
+}

@@ -110,3 +110,74 @@ body {
 .btSair:hover {
     transform: scale(1.02);
 }
+
+
+
+.conteudoProducao {
+    margin-left: 22%;
+    margin-top: 20px;
+}
+
+.topoProducao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.topoProducao h1 {
+    color: #5e2c2f;
+    font-size: 40px;
+}
+
+.topoProducao input {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.topoProducao button {
+    background-color: #5e2c2f;
+    color: #d8bfa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.topoProducao button:hover{
+    transform: scale(1.02);
+}
+
+.cardProducao {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+
+.topoCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.topoCard span {
+    color: #a6a6a6;
+    font-size: 17px;
+}
+
+.inputsProducao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
