@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" type="imagex/png" href="/imagens/guia.png">
     <link rel="stylesheet" href="/css/despesas.css">
     <title>Funcionários - PDSystem</title>
 </head>
+
 <body>
     <section>
         <div class="menuLateral">
@@ -25,14 +28,129 @@
                 <a class="off" href="/html/compras.html">Compras</a>
                 <a class="off" href="/html/vendas.html">Vendas</a>
                 <a class="off" href="/html/producao.html">Produção</a>
-                <a class="on" href="/html/despesas.html">Despesas</a>
+                <a class="off" href="/html/despesas.html">Despesas</a>
             </div>
 
             <div class="btsMenu">
-                <a><button class="btCentral">Central</button></a>
-                <a href="entrada.html"><button class="btSair">Sair</button></a>
+                <a href="/html/central.html"><button class="btCentral">Central</button></a>
+                <a href="/html/entrada.html"><button class="btSair">Sair</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="conteudoClientes">
+        <div class="topoClientes">
+            <h1>Despesas</h1>
+            <div>
+                <input type="text" placeholder="Buscar...">
+            </div>
+        </div>
+
+        <div class="areaCards">
+            <div class="cardEsquerda">
+                <div class="topoCardE">
+                    <span>Registrar custos</span>
+                </div>
+
+                <div class="primeiroMiniCard">
+                    <div class="descricao">
+                        <h1>Descrição (opcional)</h1>
+                        <input type="text" placeholder="Ex: Pão, Conta de luz...">
+                    </div>
+                    <div class="tipoData">
+                        <div class="tipo">
+                            <h1>Tipo</h1>
+                            <select id="opcoes" name="opcoes">
+                                <option value="op1">Opção 1</option>
+                                <option value="op2">Opção 2</option>
+                                <option value="op3">Opção 3</option>
+                                <option value="op4">Opção 4</option>
+                                <option value="op5">Opção 5</option>
+                            </select>
+                        </div>
+                        <div class="data">
+                            <h1>Data</h1>
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div class="valorBtn">
+                        <div class="valor">
+                            <h1>Valor (R$)</h1>
+                            <input type="number">
+                        </div>
+                        <div class="btsValor">
+                            <button class="add">Adicionar</button>
+                            <button class="limpar">Limpar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="segundoMiniCard">
+                    <div class="tabela">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <th>Tipo</th>
+                                    <th>Data</th>
+                                    <th>Valor (R$)</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Farinha Extra</td>
+                                    <td>Insumo</td>
+                                    <td>10/11/2025</td>
+                                    <td>320,00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Conta Luz</td>
+                                    <td>Energia</td>
+                                    <td>05/11/2025</td>
+                                    <td>580,00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Gás Cozinha</td>
+                                    <td>Utilidade</td>
+                                    <td>12/11/2025</td>
+                                    <td>190,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="totalTabela">
+                        <h1>Total:</h1>
+                        <h2>R$ 1.090,00</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cardDireita">
+                <div class="resumo">
+                    <h1>Resumo rápido</h1>
+                    <h2>Visão geral das últimas entradas.</h2>
+                </div>
+                <div class="despesasCustos">
+                    <div class="despesas">
+                        <h1>Despesas hoje</h1>
+                        <h2>3</h2>
+                    </div>
+                    <div class="custos">
+                        <h1>Custo total</h1>
+                        <h2>R$ 320,00</h2>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                </div>
             </div>
         </div>
     </section>
 </body>
+
 </html>
