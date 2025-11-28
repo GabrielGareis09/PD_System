@@ -110,3 +110,312 @@ body {
 .btSair:hover {
     transform: scale(1.02);
 }
+
+
+.conteudoClientes {
+    margin-left: 22%;
+    margin-top: 20px;
+}
+
+.topoClientes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.topoClientes h1 {
+    color: #5e2c2f;
+    font-size: 40px;
+}
+
+.topoClientes input {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.topoClientes button {
+    background-color: #5e2c2f;
+    color: #d8bfa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.topoClientes button:hover{
+    transform: scale(1.02);
+}
+
+
+
+.areaCards{
+    margin-left: 5%;
+    display: flex;
+    gap: 50px;
+}
+
+.cardEsquerda{
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.topoCardE {
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.topoCardE span{
+    color: #a6a6a6;
+    font-size: 17px;
+}
+
+.primeiroMiniCard{
+    background-color: #f6f6f6;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    margin-right: 30px;
+}
+
+.descricao h1{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px 20px 0px 20px;
+}
+
+.descricao input{
+    width: 480px;
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.tipoData{
+    display: flex;
+    gap: 20px;
+}
+
+.tipo h1{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px 20px 0px 20px;
+    margin: 0%;
+}
+
+.tipo select{
+    width: 260px;
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.data h1{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px 20px 0px 0px;
+    margin: 0%;
+}
+
+.data input{
+    width: 200px;
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.valorBtn{
+    display: flex;
+    gap: 35px;
+}
+
+.valor h1{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 20px 20px 0px 20px;
+    margin: 0%;
+}
+
+.valor input{
+    width: 230px;
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.btsValor{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 7px;
+}
+
+.add{
+    background-color: #5e2c2f;
+    color: #d8bfa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.limpar{
+    background-color: #ffbcbc;
+    color: black;
+    border: 1px solid #a6a6a6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.segundoMiniCard{
+    background-color: #f6f6f6;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    margin-right: 30px;
+}
+
+table {
+    width: 480px;
+    border-collapse: collapse;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+thead tr {
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 700;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+    color: #5e2c2f;
+}
+
+td {
+    padding: 20px 0px 20px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.totalTabela {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.totalTabela h1{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.totalTabela h2{
+    font-size: 17px;
+    color: #5e2c2f;
+    margin-left: 5px;
+}
+
+.cardDireita{
+    width: 600px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px 30px 30px 30px;
+}
+
+.resumo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.resumo h1{
+    font-size: 20px;
+    margin: 0%;
+}
+
+.resumo h2{
+    font-size: 17px;
+    margin: 0%;
+    font-weight: 400;
+}
+
+.despesasCustos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.despesas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.despesas h1{
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.despesas h2{
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.custos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.custos h1{
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.custos h2{
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    margin: 0%;
+}

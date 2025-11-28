@@ -160,6 +160,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 20px;
+    padding-bottom: 30px;
 }
 
 .topoCard {
@@ -176,8 +177,135 @@ body {
 
 .inputsProducao{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.inputsProducao h1{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.inputsProducao select{
+    width: 250px;
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.inputsProducao input{
+    width: 250px;
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.btnADD{
+    background-color: #5e2c2f;
+    color: #d8bfa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.btnLimpar{
+    background-color: #ffbcbc;
+    border: 1px solid #a6a6a6;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.filaProducao{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5%;
+}
+
+.titFila h1{
+    font-size: 20px;
+}
+
+.areaMiniCards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.miniCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #a6a6a6;
+    border-radius: 7px;
+    padding: 15px 20px 15px 40px;
+}
+
+.colunaEsquerda{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.numCard{
+    background-color: #d8bfa5;
+    padding: 7px 10px 7px 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.txtCard h1{
+    font-size: 20px;
+    margin: 0%;
+}
+
+.txtCard h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0%;
+}
+
+.colunaDireita button{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #a6a6a6;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.limparFila{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.limparFila button{
+    background-color: #ffbcbc;
+    border: 1px solid #a6a6a6;
+    color: black;
+    padding: 10px 50px 10px 50px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
 }
