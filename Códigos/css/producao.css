@@ -161,6 +161,7 @@ body {
     margin-right: 5%;
     border-radius: 20px;
     padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .topoCard {
@@ -216,6 +217,11 @@ body {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.btnADD:hover {
+    transform: scale(1.02);
 }
 
 .btnLimpar{
@@ -228,6 +234,11 @@ body {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.btnLimpar:hover {
+    transform: scale(1.02);
 }
 
 .filaProducao{
@@ -262,6 +273,8 @@ body {
 }
 
 .numCard{
+    width: 40px;
+    text-align: center;
     background-color: #d8bfa5;
     padding: 7px 10px 7px 10px;
     border-radius: 20px;
@@ -290,6 +303,11 @@ body {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.colunaDireita button:hover {
+    transform: scale(1.02);
 }
 
 .limparFila{
@@ -308,4 +326,9 @@ body {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.limparFila button:hover {
+    transform: scale(1.02);
 }

@@ -1,0 +1,392 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.menuLateral {
+    width: 22%;
+    height: 100vh;
+    background-color: #5e2c2f;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logoMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.logoMenu img {
+    width: 70px;
+    filter: drop-shadow(0px 0px 12px #000000);
+}
+
+.linksMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.on {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: rgba(55, 25, 27, 0.6);
+    padding: 10px 0px 10px 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.on:hover {
+    background-color: #37191b;
+    transform: translateY(-3px);
+}
+
+
+.off {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.off:hover {
+    transform: translateY(-3px);
+}
+
+.btsMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 22%;
+}
+
+.btCentral {
+    width: 240px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #5e2c2f;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btCentral:hover {
+    transform: scale(1.02);
+}
+
+.btSair {
+    width: 240px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #5e2c2f;
+    background-color: #d8bfa5;
+    border: none;
+    border-radius: 50px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btSair:hover {
+    transform: scale(1.02);
+}
+
+
+
+
+
+.conteudoDashboard {
+    margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.topoDashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.topoDashboard h1 {
+    color: #5e2c2f;
+    font-size: 40px;
+}
+
+.topoDashboard input {
+    background-color: white;
+    border: 1px solid #a6a6a6;
+    padding: 10px 7px 10px 7px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.topoDashboard button {
+    background-color: #5e2c2f;
+    color: #d8bfa5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.topoDashboard button:hover{
+    transform: scale(1.02);
+}
+
+.cardDashboard {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+}
+
+.areaCardsTopo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.miniCardTopo1{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    width: 260px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.miniCardTopo1 h1{
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.miniCardTopo1 h2{
+    font-size: 25px;
+    color: black;
+    margin: 0%;
+}
+
+
+
+.miniCardTopo2{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    width: 260px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.miniCardTopo2 h1{
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.miniCardTopo2 h2{
+    font-size: 25px;
+    color: #ff3131;
+    margin: 0%;
+}
+
+
+
+.miniCardTopo3{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    width: 260px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.miniCardTopo3 h1{
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.miniCardTopo3 h2{
+    font-size: 25px;
+    color: #00bf63;
+    margin: 0%;
+}
+
+
+
+.miniCardTopo4{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    width: 260px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.miniCardTopo4 h1{
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.miniCardTopo4 h2{
+    font-size: 25px;
+    color: black;
+    margin: 0%;
+}
+
+
+
+
+.areaCardsMeio{
+    margin-top: 50px;
+}
+
+.titMeio h1{
+    margin: 0%;
+    font-size: 28px;
+}
+
+.produtosUnidades{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.produto{
+    width: 550px;
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.produtosUnidades h2{
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.cardGrafico{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.infoGrafico{
+    display: flex;
+}
+
+.infoGrafico h1{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin: 0%;
+    width: 550px;
+}
+
+.infoGrafico h2{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin: 0%;
+}
+
+
+
+
+.areaCardsFim{
+    margin-top: 50px;
+}
+
+.titFim h1{
+    margin: 0%;
+    font-size: 28px;
+}
+
+.diaProducao{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dia{
+    width: 550px;
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.diaProducao h2{
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.cardGrafico{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.infoGrafico{
+    display: flex;
+}
+
+.infoGrafico h1{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin: 0%;
+    width: 550px;
+}
+
+.infoGrafico h2{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin: 0%;
+}

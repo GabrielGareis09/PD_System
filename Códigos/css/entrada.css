@@ -1,10 +1,11 @@
-body{
+body {
     background-color: #5e2c2f;
     overflow: hidden;
     margin: 0%;
+    font-family: "Open Sans", sans-serif;
 }
 
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +13,7 @@ section{
     margin-top: 10%;
 }
 
-.colunaEsquerda img{
+.colunaEsquerda img {
     width: 400px;
 }
 
@@ -21,13 +22,15 @@ section{
     display: flex;
     flex-direction: column;
 }
-.colunaDireita h1{
+
+.colunaDireita h1 {
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 60px;
     margin-bottom: 0%;
 }
-.colunaDireita input{
+
+.colunaDireita input {
     background-color: #5e2c2f;
     border: 2px solid white;
     border-radius: 20px;
@@ -36,10 +39,12 @@ section{
     padding: 10px 20px 10px 20px;
     margin-top: 25px;
 }
+
 input::placeholder {
-  color: #a6a6a6;
+    color: #a6a6a6;
 }
-.colunaDireita button{
+
+.colunaDireita button {
     width: 100%;
     background-color: white;
     border: none;
@@ -50,9 +55,29 @@ input::placeholder {
     color: #5e2c2f;
     cursor: pointer;
     margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", sans-serif;
     transition: 0.2s;
 }
-.colunaDireita button:hover{
+
+.colunaDireita button:hover {
     transform: scale(1.02);
+}
+
+.senha {
+    position: relative;
+}
+
+.senha img {
+    width: 32px;
+    position: absolute;
+    right: 15px;
+    top: 63%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.senha img:hover {
+    opacity: 1;
 }

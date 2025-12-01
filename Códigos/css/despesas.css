@@ -112,12 +112,12 @@ body {
 }
 
 
-.conteudoClientes {
+.conteudoDespesas {
     margin-left: 22%;
     margin-top: 20px;
 }
 
-.topoClientes {
+.topoDespesas {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,12 +125,12 @@ body {
     margin-right: 5%;
 }
 
-.topoClientes h1 {
+.topoDespesas h1 {
     color: #5e2c2f;
     font-size: 40px;
 }
 
-.topoClientes input {
+.topoDespesas input {
     background-color: white;
     border: 1px solid #a6a6a6;
     padding: 10px 7px 10px 7px;
@@ -138,7 +138,7 @@ body {
     font-size: 15px;
 }
 
-.topoClientes button {
+.topoDespesas button {
     background-color: #5e2c2f;
     color: #d8bfa5;
     border: none;
@@ -150,7 +150,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.topoClientes button:hover{
+.topoDespesas button:hover{
     transform: scale(1.02);
 }
 
@@ -283,6 +283,10 @@ body {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.add:hover{
+    transform: scale(1.02);
 }
 
 .limpar{
@@ -295,6 +299,10 @@ body {
     font-size: 15px;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.limpar:hover{
+    transform: scale(1.02);
 }
 
 .segundoMiniCard{
