@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" type="imagex/png" href="/imagens/guia.png">
     <link rel="stylesheet" href="/css/entrada.css">
     <title>PD SYSTEM</title>
 </head>
+
 <body>
     <section>
         <div class="colunaEsquerda">
-            <img src="/imagens/logo.png" alt="">
+            <img src="/imagens/logo.png" alt="Logo PDSystem">
         </div>
 
         <div class="colunaDireita">
             <div>
                 <h1>PD System</h1>
-                <input type="password" placeholder="Password...">
-                <a href="/html/clientes.html"><button>Entrar</button></a>
+                <div class="senha">
+                    <input id="senha" type="password" placeholder="Password...">
+                    <img id="toggleSenha" src="/imagens/olhoFechado.svg" alt="Mostrar senha">
+                </div>
+
+                <button id="entrarBtn">Entrar</button>
+
             </div>
         </div>
     </section>
+
+
+    <script src="/js/entrada.js"></script>
+
 </body>
+
 </html>

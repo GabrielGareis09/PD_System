@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="/imagens/guia.png">
+    <link rel="stylesheet" href="/css/ajuda.css">
+    <title>Ajuda / Reclamações - PDSystem</title>
+</head>
+
+<body>
+    <section>
+        <div class="menuLateral">
+            <div class="logoMenu">
+                <img src="/imagens/logoMenu.png" alt="Logo minimalista PDSystem">
+            </div>
+
+            <div class="linksMenu">
+                <a class="off" href="/html/clientes.html">Clientes</a>
+                <a class="off" href="/html/funcionarios.html">Funcionários</a>
+                <a class="off" href="/html/produtos.html">Produtos</a>
+                <a class="off" href="/html/fornecedores.html">Fornecedores</a>
+                <a class="off" href="/html/compras.html">Compras</a>
+                <a class="off" href="/html/vendas.html">Vendas</a>
+                <a class="off" href="/html/producao.html">Produção</a>
+                <a class="off" href="/html/despesas.html">Despesas</a>
+            </div>
+
+            <div class="btsMenu">
+                <a href="/html/central.html"><button class="btCentral">Central</button></a>
+                <a href="/html/entrada.html"><button class="btSair">Sair</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="conteudoAjuda">
+        <div class="topoAjuda">
+            <h1>Ajuda / Reclamações</h1>
+        </div>
+
+        <div class="cardAjuda">
+            <div class="topoCard">
+                <span>Registrar novo chamado</span>
+            </div>
+
+            <div class="areaInputs">
+                <div>
+                    <h1>Tipo</h1>
+                    <select id="opcoes" name="opcoes">
+
+                        <option value="higiene_estoque">Solicitação de limpeza no estoque</option>
+                        <option value="higiene_forno">Forno precisando de higienização</option>
+                        <option value="equipamento_quebrado">Equipamento quebrado (batedeira, cilindro, forno etc.)
+                        </option>
+                        <option value="falta_ingredientes">Falta de ingredientes essenciais</option>
+                        <option value="falta_uniforme">Pedido de novos uniformes</option>
+                        <option value="falta_epi">Reposição de EPIs</option>
+                        <option value="seguranca_trabalho">Solicitação de melhoria na segurança do trabalho</option>
+                        <option value="assedio_cliente">Relato de cliente desrespeitante</option>
+                        <option value="asssunto_funcionarios">Conflito entre funcionários</option>
+                        <option value="treinamento_novo">Pedido de treinamento adicional</option>
+                        <option value="cliente_reclamacao_produto">Cliente reclamou da qualidade de produto</option>
+                        <option value="cliente_reclamacao_atendimento">Cliente reclamou do atendimento</option>
+                        <option value="cliente_reclamacao_atraso">Cliente reclamou de atraso de encomenda</option>
+                        <option value="atraso_entrega_insumos">Atraso na entrega de insumos</option>
+                        <option value="temperatura_forno_irregular">Temperatura do forno irregular</option>
+                        <option value="perdas_altas">Relato de perdas e desperdícios acima do esperado</option>
+                        <option value="falta_funcionarios">Falta de funcionários no turno</option>
+                        <option value="sobrecarga_trabalho">Funcionário sobrecarregado</option>
+                        <option value="problema_ponto">Problema com registro de ponto</option>
+                        <option value="pedido_troca_turno">Pedido de troca de turno</option>
+                        <option value="pedido_ferias">Solicitação de férias</option>
+                        <option value="pedido_folga">Pedido de folga</option>
+                        <option value="pedido_hora_extra">Pedido de hora extra</option>
+                        <option value="conserto_ar">Ar-condicionado não funcionando</option>
+                        <option value="conserto_iluminacao">Problemas na iluminação da produção</option>
+                        <option value="problema_rede_wifi">Wi-Fi da loja com falhas</option>
+                        <option value="computador_caixa_lento">Computador do caixa lento/travando</option>
+                        <option value="atualizar_precos">Solicitação de atualização de preços</option>
+                        <option value="falta_notas_produtos">Produtos sem etiqueta de validade</option>
+                        <option value="area_sujo">Área de produção suja</option>
+                        <option value="camera_quebrada">Câmeras de segurança não funcionando</option>
+                        <option value="falta_fardos_farinha">Falta de fardos de farinha</option>
+                        <option value="falta_fermento">Falta de fermento fresco</option>
+                        <option value="ingrediente_inadequado">Ingrediente recebido com baixa qualidade</option>
+                        <option value="problema_vitrine">Vitrine fria não gelando</option>
+                        <option value="problema_caixa">Caixa não registra pagamentos corretamente</option>
+                        <option value="fila_grande">Fila grande e poucos funcionários</option>
+                        <option value="ruido_maquinas">Máquinas fazendo barulho incomum</option>
+                        <option value="pedido_novos_produtos">Sugestão de novos produtos para vender</option>
+                        <option value="pedido_materiais_limpeza">Faltam materiais de limpeza</option>
+                        <option value="cheiro_ruim">Cheiro ruim na área da confeitaria</option>
+                        <option value="reclamacao_entregador">Entregador atrasando pedidos</option>
+                        <option value="falta_agua">Falta de água no turno</option>
+                        <option value="problema_esgoto">Esgoto entupido</option>
+                        <option value="infiltracao_goteira">Goteira na área de produção</option>
+                        <option value="problema_eletrico">Problema elétrico no quadro de energia</option>
+                        <option value="porta_quebrada">Porta dos freezers quebrada</option>
+                        <option value="logo">Sugestão de melhoria na marca/embalagens</option>
+                        <option value="marketing">Sugestão de marketing</option>
+                        <option value="bem_estar_funcionario">Sugestão para melhorar bem-estar da equipe</option>
+
+                    </select>
+
+                </div>
+
+                <div>
+                    <h1>Funcionário</h1>
+                    <input type="text" placeholder="Nome...">
+                </div>
+
+                <div>
+                    <h1>Descrição</h1>
+                    <textarea placeholder="Descreva o problema..."></textarea>
+                </div>
+
+                <div class="btsAjuda">
+                    <button class="btnEnviar">Enviar</button>
+                    <button class="btnLimpar">Limpar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/ajuda.js"></script>
+    
+</body>
+
+</html>

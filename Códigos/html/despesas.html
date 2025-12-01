@@ -10,14 +10,14 @@
         rel="stylesheet">
     <link rel="shortcut icon" type="imagex/png" href="/imagens/guia.png">
     <link rel="stylesheet" href="/css/despesas.css">
-    <title>Funcionários - PDSystem</title>
+    <title>Despesas - PDSystem</title>
 </head>
 
 <body>
     <section>
         <div class="menuLateral">
             <div class="logoMenu">
-                <img src="/imagens/logoMenu.png" alt="">
+                <img src="/imagens/logoMenu.png" alt="Logo minimalista PDSystem">
             </div>
 
             <div class="linksMenu">
@@ -39,8 +39,8 @@
     </section>
 
 
-    <section class="conteudoClientes">
-        <div class="topoClientes">
+    <section class="conteudoDespesas">
+        <div class="topoDespesas">
             <h1>Despesas</h1>
             <div>
                 <input type="text" placeholder="Buscar...">
@@ -62,12 +62,74 @@
                         <div class="tipo">
                             <h1>Tipo</h1>
                             <select id="opcoes" name="opcoes">
-                                <option value="op1">Opção 1</option>
-                                <option value="op2">Opção 2</option>
-                                <option value="op3">Opção 3</option>
-                                <option value="op4">Opção 4</option>
-                                <option value="op5">Opção 5</option>
+                                <option value="farinha_trigo">Farinha de Trigo</option>
+                                <option value="acucar">Açúcar</option>
+                                <option value="fermento">Fermento (biológico e químico)</option>
+                                <option value="manteiga_margarina">Manteiga / Margarina</option>
+                                <option value="ovos">Ovos</option>
+                                <option value="leite">Leite</option>
+                                <option value="creme_leite">Creme de Leite</option>
+                                <option value="achocolatado_cacau">Cacau e Chocolate</option>
+                                <option value="frutas_frescas">Frutas Frescas</option>
+                                <option value="essencias">Essências e Aromas</option>
+                                <option value="mel">Mel</option>
+                                <option value="sal">Sal</option>
+                                <option value="corantes">Corantes</option>
+                                <option value="geleias">Geleias</option>
+                                <option value="sacolas">Sacolas</option>
+                                <option value="caixas_bolos">Caixas para Bolos</option>
+                                <option value="emb_paes">Embalagens para Pães</option>
+                                <option value="formas_papel">Formas de Papel</option>
+                                <option value="marmitex">Marmitex</option>
+                                <option value="etiquetas">Etiquetas</option>
+                                <option value="cafe_po">Café em Pó</option>
+                                <option value="cha">Chás</option>
+                                <option value="sucos">Sucos</option>
+                                <option value="refrigerantes">Refrigerantes</option>
+                                <option value="agua_mineral">Água Mineral</option>
+                                <option value="manut_forno">Manutenção do Forno</option>
+                                <option value="manut_batedeira_industrial">Manutenção de Batedeira Industrial</option>
+                                <option value="manut_amassadeira">Manutenção da Amassadeira</option>
+                                <option value="manut_geladeira_freezer">Manutenção de Geladeira/Freezer</option>
+                                <option value="utensilios">Compra de Utensílios</option>
+                                <option value="equipamentos_novos">Compra de Novos Equipamentos</option>
+                                <option value="detergente">Detergente</option>
+                                <option value="sabao_po">Sabão em Pó</option>
+                                <option value="alcool">Álcool 70%</option>
+                                <option value="luvas_descartaveis">Luvas Descartáveis</option>
+                                <option value="toucas">Toucas</option>
+                                <option value="mascaras">Máscaras</option>
+                                <option value="sacos_lixo">Sacos de Lixo</option>
+                                <option value="panos_limpeza">Panos e Rodos</option>
+                                <option value="aluguel">Aluguel</option>
+                                <option value="agua">Conta de Água</option>
+                                <option value="luz">Conta de Luz</option>
+                                <option value="internet">Internet</option>
+                                <option value="telefone">Telefone</option>
+                                <option value="impostos">Impostos</option>
+                                <option value="salarios">Salários</option>
+                                <option value="fgts">FGTS</option>
+                                <option value="inss">INSS Patronal</option>
+                                <option value="vale_transporte">Vale Transporte</option>
+                                <option value="vale_refeicao">Vale Refeição</option>
+                                <option value="uniformes">Uniformes</option>
+                                <option value="epi">EPI</option>
+                                <option value="anuncios">Anúncios Online</option>
+                                <option value="flyers">Flyers e Impressos</option>
+                                <option value="fotografia_produto">Fotografia de Produtos</option>
+                                <option value="gestao_social">Gestão de Redes Sociais</option>
+                                <option value="sistema_vendas">Sistema PDV</option>
+                                <option value="software_estoque">Software de Estoque</option>
+                                <option value="manut_pc">Manutenção de Computadores</option>
+                                <option value="dominio_site">Domínio/Site</option>
+                                <option value="gas">Botijão de Gás</option>
+                                <option value="fretes">Fretes e Entregas</option>
+                                <option value="taxas_cartao">Taxas de Cartão</option>
+                                <option value="consultoria">Consultoria</option>
+                                <option value="diversos">Outros</option>
+
                             </select>
+
                         </div>
                         <div class="data">
                             <h1>Data</h1>
@@ -77,7 +139,7 @@
                     <div class="valorBtn">
                         <div class="valor">
                             <h1>Valor (R$)</h1>
-                            <input type="number">
+                            <input type="number" name="preco" id="preco" min="0" step="0.01" value="0.00">
                         </div>
                         <div class="btsValor">
                             <button class="add">Adicionar</button>
@@ -151,6 +213,10 @@
             </div>
         </div>
     </section>
+
+
+    <script src="/js/despesas.js"></script>
+    
 </body>
 
 </html>
